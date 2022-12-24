@@ -11,6 +11,8 @@
 		870CA30D29560EBE0049B72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870CA30C29560EBE0049B72B /* ContentView.swift */; };
 		870CA30F29560EBF0049B72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870CA30E29560EBF0049B72B /* Assets.xcassets */; };
 		870CA31229560EBF0049B72B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870CA31129560EBF0049B72B /* Preview Assets.xcassets */; };
+		870CA31A2956755E0049B72B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870CA3192956755E0049B72B /* Models.swift */; };
+		870CA31C295675790049B72B /* Gameboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870CA31B295675790049B72B /* Gameboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		870CA30E29560EBF0049B72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		870CA31129560EBF0049B72B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		870CA31329560EBF0049B72B /* ChessGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChessGame.entitlements; sourceTree = "<group>"; };
+		870CA3192956755E0049B72B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		870CA31B295675790049B72B /* Gameboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				870CA30A29560EBE0049B72B /* ChessGameApp.swift */,
 				870CA30C29560EBE0049B72B /* ContentView.swift */,
+				870CA3192956755E0049B72B /* Models.swift */,
+				870CA31B295675790049B72B /* Gameboard.swift */,
 				870CA30E29560EBF0049B72B /* Assets.xcassets */,
 				870CA31329560EBF0049B72B /* ChessGame.entitlements */,
 				870CA31029560EBF0049B72B /* Preview Content */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870CA31C295675790049B72B /* Gameboard.swift in Sources */,
+				870CA31A2956755E0049B72B /* Models.swift in Sources */,
 				870CA30D29560EBE0049B72B /* ContentView.swift in Sources */,
 				870CA30B29560EBE0049B72B /* ChessGameApp.swift in Sources */,
 			);
