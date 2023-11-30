@@ -50,7 +50,7 @@ struct ContentView: View {
                                     Rectangle()
                                         .fill(row % 2 == col % 2 ? Color.gray : Color.brown)
                                         .frame(width: 64, height: 64)
-                                    if let piece = game.board[row][col {]
+                                    if let piece = game.board[row][col] {
                                         if game.isKingInCheck(for: game.playerTurn, on: game.board) && piece.name == .king && game.playerTurn == piece.player {
                                             Rectangle()
                                                 .fill(Color.orange)
